@@ -1,4 +1,4 @@
-# Next Blogger 
+# Next Blogger  ![Demo](https://next-blogger-demo.vercel.app/)
 
 ## Start 
 ```bash
@@ -14,6 +14,9 @@ npm run start # do not use run dev as we are not working locally
 
 ## How Does this Next-Blogger Project works
 Well there are two parts of this project, one is this structural repo and other is Content Repo. All the site related structural components are in this repo and content is fetched from the content repo which can be public or private. 
+
+- [ ] Host this site somewhere ( vercel [ recommended ], netlify )
+- [ ] Provide .env file with tina credentials
 
 
 ### Triggering the Content updates to the main site
