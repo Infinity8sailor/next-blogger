@@ -1,4 +1,4 @@
-# Next Blogger  ![Demo](https://next-blogger-demo.vercel.app/)
+# Next Blogger   [Demo](https://next-blogger-demo.vercel.app/)
 
 ## Start 
 ```bash
@@ -13,17 +13,11 @@ npm run start # do not use run dev as we are not working locally
 
 
 ## How Does this Next-Blogger Project works
-Well there are two parts of this project, one is this structural repo and other is Content Repo. All the site related structural components are in this repo and content is fetched from the content repo which can be public or private. 
+Well, There are two parts of this project, one is this Structural-Repo ( this one )  and other is [Content-Repo](https://github.com/Infinity8sailor/next-blogger-content-repo). All the site related structural components are in this repo and content is fetched from the content repo which can be public or private using Tina CMS. 
 
 - [ ] Host this site somewhere ( vercel [ recommended ], netlify )
 - [ ] Provide .env file with tina credentials
-
-
-### Triggering the Content updates to the main site
-   - [X] Add github action to content repo
-   - [X] Create a Deploy Trigger using vercel on Main site [ Deploy Hook ]
-   - [x] Once the link is deploy hook Api is created, add that to github action variables under DEPLOY_HOOK
-   - [X] Enable the Media provider in tina.io
+- [ ] Follow rest of Instructions from the [Content-Repo](https://github.com/Infinity8sailor/next-blogger-content-repo)
 
 
 # Contents
@@ -36,5 +30,7 @@ Well there are two parts of this project, one is this structural repo and other 
   - [ ] Users
   - [X] Authors
   - [ ] Quotes
+  
 # Features and Updates
 - [ ] Reading time to be displayed.
+- [ ] Quotes Feature.
