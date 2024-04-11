@@ -30,7 +30,14 @@ Well, There are two parts of this project, one is this Structural-Repo ( this on
   - [ ] Users
   - [X] Authors
   - [ ] Quotes
+- [ ] Template Support
+  - [ ] Templates should be plugable ( No idea as of now )
+  - [ ] Can be added to blocks as it has those partial blocks.
   
 # Features and Updates
 - [ ] Reading time to be displayed.
 - [ ] Quotes Feature.
+
+
+# Things To Note
+- [ ] If you make any change to tina folder in this repo, Please, copy past that folder to Content-Repo to avoid any schema or content issues.

@@ -48,7 +48,7 @@ export const HeroPostsList = ({ data }: { data: any }) => {
             >
               <a
                 className="relative overflow-hidden"
-                href={`/post/` + post._sys.filename}
+                href={`/posts/` + post._sys.filename}
               >
                 <img
                   src={post.heroImg}
@@ -85,7 +85,7 @@ export const HeroPostsList = ({ data }: { data: any }) => {
                   <div className="flex flex-col gap-2">
                     <a
                       className="text-2xl font-semibold -tracking-wider"
-                      href={`/post/` + post._sys.filename}
+                      href={`/posts/` + post._sys.filename}
                     >
                       {post.title}
                     </a>
@@ -97,7 +97,7 @@ export const HeroPostsList = ({ data }: { data: any }) => {
 
                 <footer className="flex justify-between items-center">
                   <a
-                    href={`/post/` + post._sys.filename}
+                    href={`/posts/` + post._sys.filename}
                     className="flex justify-center items-center dark:text-white rounded-full hover:translate-x-1 transition-transform duration-150 ease-in-out font-semibold gap-1 group"
                     aria-label={`go to ${post.title}`}
                   >
