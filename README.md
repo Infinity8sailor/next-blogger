@@ -40,4 +40,4 @@ Well, There are two parts of this project, one is this Structural-Repo ( this on
 
 
 # Things To Note
-- [ ] If you make any change to tina folder in this repo, Please, copy past that folder to Content-Repo to avoid any schema or content issues.
+- [ ] If you make any change to tina folder in this repo, use `npm run dev` to update tina-lock.json. Once updated, Please copy past that folder to Content-Repo to avoid any schema or content issues.

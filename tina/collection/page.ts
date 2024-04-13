@@ -3,6 +3,7 @@ import { heroBlockSchema } from "../../src/components/blocks/hero";
 import { contentBlockSchema } from "../../src/components/blocks/content";
 import { testimonialBlockSchema } from "../../src/components/blocks/testimonial";
 import { featureBlockSchema } from "../../src/components/blocks/features";
+import { trainThemeBlockSchema } from "../../src/components/blocks/train_arc";
 
 const Page: Collection = {
   label: "Pages",
@@ -44,6 +45,7 @@ const Page: Collection = {
         featureBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
+        trainThemeBlockSchema,
       ],
     },
   ],

@@ -11,6 +11,7 @@ import { Testimonial } from "./blocks/testimonial";
 import { tinaField, useTina } from "tinacms/dist/react";
 import { Section } from "./util/section";
 import { Container } from "./util/container";
+import { TrainTheme } from "./blocks/train_arc";
 
 export const Blocks = ({ query, posts }) => {
   const { data }: { data: ContentQueryQuery } = useTina(query);
@@ -50,6 +51,8 @@ const Block = (block: PageBlocks) => {
       return <Features data={block} />;
     case "PageBlocksTestimonial":
       return <Testimonial data={block} />;
+    case "PageBlocksTrainTheme":
+      return <TrainTheme data={block} />;
     default:
       return null;
   }
